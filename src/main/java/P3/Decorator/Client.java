@@ -4,8 +4,11 @@ public class Client {
 
     public static void main(String[]args){
 
-        IPersonaje personaje= new PersonajeHumano("Isindur", "Espada", 1,
-                10, 10, 10, 10);
+        IPersonaje personaje= new PersonajeHumano("Isindur", "Espada", 1);
+        personaje.setPorcentajeArmadura(10);
+        personaje.setPuntosAtaque(10);
+        personaje.setPuntosDefensa(10);
+        personaje.setPuntosRegeneracion(10);
 
         personaje.showInfo();
 

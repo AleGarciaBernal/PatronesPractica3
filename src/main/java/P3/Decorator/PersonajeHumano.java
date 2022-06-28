@@ -10,14 +10,14 @@ public class PersonajeHumano implements IPersonaje {
     private int puntosDefensa;
     private int puntosRegeneracion;
 
-    public PersonajeHumano(String nombre, String armas, int nivel, int porcentajeArmadura, int puntosAtaque, int puntosDefensa, int puntosRegeneracion) {
+    public PersonajeHumano(String nombre, String armas, int nivel) {
         this.nombre = nombre;
         this.armas = armas;
         this.nivel = nivel;
-        this.porcentajeArmadura = porcentajeArmadura;
-        this.puntosAtaque = puntosAtaque;
-        this.puntosDefensa = puntosDefensa;
-        this.puntosRegeneracion = puntosRegeneracion;
+        this.porcentajeArmadura = 1;
+        this.puntosAtaque = 1;
+        this.puntosDefensa = 1;
+        this.puntosRegeneracion = 1;
     }
 
     @Override
