@@ -11,7 +11,6 @@ public interface IPersonaje {
     int getPuntosDefensa();
     int getPuntosRegeneracion();
     String getArmas();
-    PersonajeHumano getPersonaje();
 
     void setNivel(int nivel);
     void setPorcentajeArmadura(int porcentajeArmadura);

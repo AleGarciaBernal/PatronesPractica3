@@ -10,16 +10,14 @@ public class Client {
         personaje.showInfo();
 
         personaje=new Armas(personaje,"Hacha");
-        personaje.operation();
-        personaje.showInfo();
 
         personaje=new Escudo(personaje);
+
+        personaje=new PocionCuracion(personaje);
+
         personaje.operation();
         personaje.showInfo();
 
-        personaje=new PocionCuracion(personaje);
-        personaje.operation();
-        personaje.showInfo();
 
     }
 }

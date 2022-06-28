@@ -34,7 +34,7 @@ public class PersonajeHumano implements IPersonaje {
 
     @Override
     public void operation() {
-        System.out.println("Personaje Humano> operation -> realizando operacion del objeto base");
+        System.out.println("Personaje Humano> operation -> realizando operacion");
     }
 
     @Override
@@ -65,11 +65,6 @@ public class PersonajeHumano implements IPersonaje {
     @Override
     public String getArmas() {
         return armas;
-    }
-
-    @Override
-    public PersonajeHumano getPersonaje() {
-        return this;
     }
 
     public void setNombre(String nombre) {
